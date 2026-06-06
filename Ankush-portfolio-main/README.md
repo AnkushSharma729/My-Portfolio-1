@@ -1,80 +1,145 @@
-# Ankush Sharma — Frontend Developer & Designer Portfolio
+# ANKUSH SHARMA — Developer & Designer Portfolio
 
-A dark-themed personal portfolio for **Ankush Sharma**. Focused on UI/UX, front-end development, and design.
+A modern dark-themed personal portfolio website for **Ankush Sharma**, a passionate Frontend Developer and Diploma graduate in Computer Science Engineering from Noida International University.
 
-Built with **React + TypeScript + Vite + Tailwind CSS + Framer Motion**. Designed for one-click deployment on **Vercel**.
+I enjoy building responsive and user-friendly web applications using modern web technologies. I continuously explore new technologies and work on projects to improve my skills and create better digital experiences.
 
-## Stack
+## Tech Stack
 
-- React 18 / TypeScript
-- Vite (build tool)
-- Tailwind CSS (utility-first styling)
-- Framer Motion (animations + scroll effects)
-- Lucide React (icons)
-- Kanit font (Google Fonts, weights 300–900)
+* React 18
+* TypeScript
+* Vite
+* Tailwind CSS
+* Framer Motion
+* Lucide React
+* Google Fonts (Kanit)
+
+## Features
+
+* Dark-themed modern UI
+* Fully responsive design
+* Smooth animations and scroll effects
+* Interactive magnetic hover effects
+* Project showcase section
+* Contact section with social links
+* Optimized for Vercel deployment
 
 ## Sections
 
-1. **Hero** — name, tagline, magnetic-hover portrait
-2. **About** — bio + skills grouped by Languages / Frameworks / Tools / AI
-3. **Services** — UI/UX Design, Web Design, Front-end Development, GenAI Integration
-4. **Projects** — sticky-stacking cards for AI Tutor, PiLearn, ResumeIQ, Notch
-5. **Contact** — Email, WhatsApp, LinkedIn, GitHub
+### Hero Section
 
-## Run locally
+* Name and tagline
+* Magnetic hover portrait
+* Animated heading
+
+### About Section
+
+* Bio information
+* Skills categorized by:
+
+  * Languages
+  * Frameworks
+  * Tools
+  * AI Technologies
+
+### Services Section
+
+* UI/UX Design
+* Web Design
+* Frontend Development
+* Generative AI Integration
+
+### Projects Section
+
+Featured project cards with live previews.
+
+### Contact Section
+
+* Email
+* WhatsApp
+* LinkedIn
+* GitHub
+
+## Run Locally
 
 ```bash
 npm install
-npm run dev      # http://localhost:5173
-npm run build    # production build → /dist
-npm run preview  # serve /dist locally
+npm run dev
 ```
 
-## Deploy to Vercel
+Local Server:
 
-Push to GitHub → import the repo at [vercel.com/new](https://vercel.com/new) → click Deploy. No environment variables needed.
-
-## Project structure
-
+```bash
+http://localhost:5173/
 ```
+
+Build Production:
+
+```bash
+npm run build
+npm run preview
+```
+
+## Deployment
+
+### Deploy to Vercel
+
+1. Push project to GitHub
+2. Open Vercel
+3. Import repository
+4. Click Deploy
+
+No environment variables required.
+
+## Project Structure
+
+```text
 src/
-├── App.tsx                    # composes all sections
-├── main.tsx                   # React entry
-├── index.css                  # global styles + .hero-heading gradient
+├── App.tsx
+├── main.tsx
+├── index.css
 └── components/
-    ├── HeroSection.tsx        # navbar, massive heading, magnetic portrait
-    ├── AboutSection.tsx       # bio, animated text, skills grid
-    ├── ServicesSection.tsx    # white section, 4 numbered services
-    ├── ProjectsSection.tsx    # sticky-stacking project cards
-    ├── ContactSection.tsx     # 4 contact methods with icons
-    │
-    ├── ContactButton.tsx      # gradient pill CTA
-    ├── LiveProjectButton.tsx  # ghost outline pill
-    ├── FadeIn.tsx             # whileInView animation wrapper
-    ├── Magnet.tsx             # mouse-following magnetic hover
-    └── AnimatedText.tsx       # char-by-char scroll-driven reveal
+    ├── HeroSection.tsx
+    ├── AboutSection.tsx
+    ├── ServicesSection.tsx
+    ├── ProjectsSection.tsx
+    ├── ContactSection.tsx
+    ├── ContactButton.tsx
+    ├── LiveProjectButton.tsx
+    ├── FadeIn.tsx
+    ├── Magnet.tsx
+    └── AnimatedText.tsx
 ```
 
-## Featured projects
+## Featured Projects
 
-| Project | Live | Built with |
-|---|---|---|
-| ResumeIQ | [resumeiq-harsh.vercel.app](https://resumeiq-harsh.vercel.app) | React, Gemini API, Vercel |
-| Notch | [notch-zeta.vercel.app](https://notch-zeta.vercel.app) | React, Tailwind, Framer Motion |
+### ResumeIQ
 
-## Customisation
+Tech Stack: React, Gemini API, Vercel
 
-| Want to change | Open this file |
-|---|---|
-| Name, nav links, hero text | `src/components/HeroSection.tsx` |
-| About paragraph, skills list | `src/components/AboutSection.tsx` |
-| Services list | `src/components/ServicesSection.tsx` (`SERVICES` array) |
-| Projects, screenshots, live URLs | `src/components/ProjectsSection.tsx` (`PROJECTS` array) |
-| Contact methods | `src/components/ContactSection.tsx` (`CONTACT_METHODS` array) |
-| Project screenshots | drop new images in `public/` and reference as `/filename.png` |
-| Brand gradient, font, dark colour | `src/index.css` and `tailwind.config.js` |
-| Page title, meta description | `index.html` |
+### Notch
 
-## Credits
+Tech Stack: React, Tailwind CSS, Framer Motion
 
-Designed & built by **Ankush Sharma** · [LinkedIn](https://www.linkedin.com/) · [GitHub](https://github/)
+## Customization Guide
+
+| Change         | File                           |
+| -------------- | ------------------------------ |
+| Hero Text      | HeroSection.tsx                |
+| Skills & About | AboutSection.tsx               |
+| Services       | ServicesSection.tsx            |
+| Projects       | ProjectsSection.tsx            |
+| Contact Links  | ContactSection.tsx             |
+| Colors & Theme | index.css / tailwind.config.js |
+| Meta Data      | index.html                     |
+
+## Author
+
+**Ankush Sharma**
+Frontend Developer
+
+GitHub: @Ankushsharma729
+
+---
+
+Made with ❤️ by Ankush Sharma
