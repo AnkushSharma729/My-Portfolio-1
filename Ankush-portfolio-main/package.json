@@ -2,7 +2,7 @@
   "name": "ankush-portfolio",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://ankushsharma729.github.io/My-Portfolio-1/",
+  "homepage": "https://ankushsharma729.github.io/My-Portfolio-1",
   "type": "module",
   "scripts": {
     "dev": "vite",
