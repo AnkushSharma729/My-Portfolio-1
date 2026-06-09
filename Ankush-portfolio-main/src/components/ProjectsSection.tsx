@@ -14,6 +14,8 @@ interface ProjectData {
   col2Image: string;
 }
 
+const BASE_URL = '/My-Portfolio-1/';
+
 const PROJECTS: ProjectData[] = [
   {
     number: '01',
@@ -21,9 +23,9 @@ const PROJECTS: ProjectData[] = [
     name: 'BookMyRail',
     description: 'A railway reservation and booking project built using frontend technologies with responsive design and user-friendly UI.',
     liveUrl: '#',
-    col1Image1: '/Forge.png',
-    col1Image2: '/Forge1.png',
-    col2Image: '/Forge2.png',
+    col1Image1: `${BASE_URL}Forge.png`,
+    col1Image2: `${BASE_URL}Forge1.png`,
+    col2Image: `${BASE_URL}Forge2.png`,
   },
   {
     number: '02',
@@ -31,9 +33,9 @@ const PROJECTS: ProjectData[] = [
     name: 'Portfolio Website',
     description: 'Personal portfolio website showcasing projects, skills, and certifications.',
     liveUrl: '#',
-    col1Image1: '/me-1.png',
-    col1Image2: '/me-2.png',
-    col2Image: '/me-3.png',
+    col1Image1: `${BASE_URL}me-1.png`,
+    col1Image2: `${BASE_URL}me-2.png`,
+    col2Image: `${BASE_URL}me-3.png`,
   },
   {
     number: '03',
@@ -41,9 +43,9 @@ const PROJECTS: ProjectData[] = [
     name: 'Google Clone Homepage',
     description: 'A responsive Google homepage clone built using HTML, CSS, and JavaScript.',
     liveUrl: 'https://ankushsharma729.github.io/Clone-Google-Homepage-/',
-    col1Image1: '/google-preview-1.png',
-    col1Image2: '/google-preview-2.png',
-    col2Image: '/google-preview-3.png',
+    col1Image1: `${BASE_URL}google-preview-1.png`,
+    col1Image2: `${BASE_URL}google-preview-2.png`,
+    col2Image: `${BASE_URL}google-preview-3.png`,
   },
   {
     number: '04',
@@ -51,12 +53,11 @@ const PROJECTS: ProjectData[] = [
     name: 'Event Ticket Page',
     description: 'Responsive Event Ticket Page with modern UI design.',
     liveUrl: 'https://ankushsharma729.github.io/EXPO-EVENT-PAGE/',
-    col1Image1: '/preview-1.png',
-    col1Image2: '/preview-2.png',
-    col2Image: '/preview-3.png',
+    col1Image1: `${BASE_URL}preview-1.png`,
+    col1Image2: `${BASE_URL}preview-2.png`,
+    col2Image: `${BASE_URL}preview-3.png`,
   },
 ];
-
 interface ProjectCardProps {
   project: ProjectData;
   index: number;
