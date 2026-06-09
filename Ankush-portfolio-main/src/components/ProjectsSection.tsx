@@ -51,7 +51,7 @@ const PROJECTS: ProjectData[] = [
     name: 'Event Ticket Page',
     description: 'Responsive Event Ticket Page with modern UI design.',
     liveUrl: 'https://ankushsharma729.github.io/EXPO-EVENT-PAGE/',
-    col1Image1: '/preview 3.png',
+    col1Image1: '/preview 1.png',
     col1Image2: '/preview 2.png',
     col2Image: '/preview 3.png',
   },
